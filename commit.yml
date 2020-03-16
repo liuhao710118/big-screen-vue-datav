@@ -2,46 +2,43 @@
 branches: {
   }
 fileChange:
-  /package-lock.json:
-    newFile: !uuid '2df29c1c2c5d6aa74fbdd55f8d5e6bf0690852ad'
-    oldFile: !uuid 'd910ad2c7d0093f738a268cea2f501c6eec81650'
-  /package.json:
-    newFile: !uuid '8460db42908cba85dba46ecd28413df88d4255c0'
-    oldFile: !uuid 'ff76691d89c1b39138f42748010e78115c04051f'
   /src:
-    newFile: !uuid '51cf7793bfb80b70d61329f9cd006f7357e1a6e0'
-    oldFile: !uuid 'd115c11361d2f131e572ead0d7cb42c2244101a2'
-  /src/App.vue:
-    newFile: !uuid '1c8a32fa6c7c34cfc739d9588c531f3141f13992'
-    oldFile: !uuid '39439048979c962a48128b2c5c4c90711282836d'
-  /src/components:
-    newFile: null
-    oldFile: !uuid '0b33947ef3350125bbe32989404197b75e5dcd40'
-  /src/components/HelloWorld.vue:
-    newFile: null
-    oldFile: !uuid '2f2ff3c10c6dcc85befe094dab04759bb982870a'
-  /src/main.js:
-    newFile: !uuid 'b5984effc0e1e3552c1d5f45aa108c10dd320f9a'
-    oldFile: !uuid 'f25345696713d1bf0ab7b359da6ec17acf417b2d'
-  /src/router:
-    newFile: !uuid 'a7e7d92b6e723c6219578f838e282728b1aeaf50'
-    oldFile: !uuid '1299305c8f308578d45569373ffbe0d752f99cbe'
-  /src/router/index.js:
-    newFile: !uuid '47f8d54881c0b0c2645c89392f722b9658e13079'
-    oldFile: !uuid 'e44cdcd855cdcbfe33ac6782a0225f89dd48ee31'
-  /src/views:
-    newFile: !uuid '72393bb2d41a792b33095341cbc9aa4e35301eff'
-    oldFile: !uuid '722aa6029528aa4886f9e45e102353fa2e6ff248'
-  /src/views/About.vue:
-    newFile: null
-    oldFile: !uuid '3fa28070de24f2055171ca2e20543881cb7fdf1c'
-  /src/views/Home.vue:
-    newFile: null
-    oldFile: !uuid '8bd6c57f306571c13dab5ce8ee5dab0d3e03eeeb'
-  /src/views/index.vue:
-    newFile: !uuid '4cbf5f79d94b41ff7aaa9965e7132b2766a414f3'
+    newFile: !uuid '7b2537dfad2fa864d9c2a252fcd8271a03f0a924'
+    oldFile: !uuid '51cf7793bfb80b70d61329f9cd006f7357e1a6e0'
+  /src/assets:
+    newFile: !uuid '12f79c302eefb8f95999fbabb85754060e6af498'
+    oldFile: !uuid '6510c6a45035b6573151ff6196e4bdea78deb75d'
+  /src/assets/pageBg.png:
+    newFile: !uuid 'd393f2b23a644048f652b9236b2ba81313f249c5'
     oldFile: null
-gitCommitId: !uuid '93d7e98ceef830c3f8f56a2ae79693c3580ef509'
+  /src/assets/scss:
+    newFile: !uuid '687a47b6f545b5a687e201e9fc4a93120ba42c21'
+    oldFile: null
+  /src/assets/scss/_variables.scss:
+    newFile: !uuid '0a615af61649481e3dbfada03fe23a794365bf06'
+    oldFile: null
+  /src/assets/scss/index.scss:
+    newFile: !uuid '807e54904249710940a832089bfa993b9b692f65'
+    oldFile: null
+  /src/assets/scss/style.scss:
+    newFile: !uuid '883b91980b7a839813706ddd6605b2ef09d280b5'
+    oldFile: null
+  /src/assets/title-bg.png:
+    newFile: !uuid 'faf790bdd66bbdbdd5430bb378c832c1e9f105cd'
+    oldFile: null
+  /src/main.js:
+    newFile: !uuid 'f61d82b82d9082a51e61388ffb44da603e0d0958'
+    oldFile: !uuid 'b5984effc0e1e3552c1d5f45aa108c10dd320f9a'
+  /src/views:
+    newFile: !uuid '8f9b43f796c8a66d623cc1ef1144a2253cc7bf7e'
+    oldFile: !uuid '72393bb2d41a792b33095341cbc9aa4e35301eff'
+  /src/views/centreLeft1.vue:
+    newFile: !uuid 'ab0fd4fa0ebb1c58f8e1107d9b54234f5141ecfa'
+    oldFile: null
+  /src/views/index.vue:
+    newFile: !uuid '91a18306a7d4af934dcec7b30e9abf7680889084'
+    oldFile: !uuid '4cbf5f79d94b41ff7aaa9965e7132b2766a414f3'
+gitCommitId: !uuid '87360479338f23db7c5a8957a1113d88e8df7f1b'
 renames: {
   }
-revisionId: 2
+revisionId: 3
