@@ -1,0 +1,74 @@
+!revision
+branches: {
+  }
+fileChange:
+  /.gitignore:
+    newFile: !uuid 'a0dddc6fb8c6b3feeeffa6e29bedca338e483382'
+    oldFile: null
+  /README.md:
+    newFile: !uuid '67ed39d29e6dfb767c749817726cbafc33e2820f'
+    oldFile: null
+  /babel.config.js:
+    newFile: !uuid 'e9558405fdcc02f12d757acb308e02937a7444f1'
+    oldFile: null
+  /package-lock.json:
+    newFile: !uuid 'd910ad2c7d0093f738a268cea2f501c6eec81650'
+    oldFile: null
+  /package.json:
+    newFile: !uuid 'ff76691d89c1b39138f42748010e78115c04051f'
+    oldFile: null
+  /public:
+    newFile: !uuid 'cc64c8894ca30af9cfbbc54ad9fba1ade0cd53e1'
+    oldFile: null
+  /public/favicon.ico:
+    newFile: !uuid 'df36fcfb72584e00488330b560ebcf34a41c64c2'
+    oldFile: null
+  /public/index.html:
+    newFile: !uuid '41235286563508e0feb4c451a34b598ef822ec21'
+    oldFile: null
+  /src:
+    newFile: !uuid 'd115c11361d2f131e572ead0d7cb42c2244101a2'
+    oldFile: null
+  /src/App.vue:
+    newFile: !uuid '39439048979c962a48128b2c5c4c90711282836d'
+    oldFile: null
+  /src/assets:
+    newFile: !uuid '6510c6a45035b6573151ff6196e4bdea78deb75d'
+    oldFile: null
+  /src/assets/logo.png:
+    newFile: !uuid 'f3d2503fc2a44b5053b0837ebea6e87a2d339a43'
+    oldFile: null
+  /src/components:
+    newFile: !uuid '0b33947ef3350125bbe32989404197b75e5dcd40'
+    oldFile: null
+  /src/components/HelloWorld.vue:
+    newFile: !uuid '2f2ff3c10c6dcc85befe094dab04759bb982870a'
+    oldFile: null
+  /src/main.js:
+    newFile: !uuid 'f25345696713d1bf0ab7b359da6ec17acf417b2d'
+    oldFile: null
+  /src/router:
+    newFile: !uuid '1299305c8f308578d45569373ffbe0d752f99cbe'
+    oldFile: null
+  /src/router/index.js:
+    newFile: !uuid 'e44cdcd855cdcbfe33ac6782a0225f89dd48ee31'
+    oldFile: null
+  /src/store:
+    newFile: !uuid '06f654ca1d2139dcb15424eb17f150536e2d13e2'
+    oldFile: null
+  /src/store/index.js:
+    newFile: !uuid '332b916928b6051df5dc7286ead3e04ee067f4ab'
+    oldFile: null
+  /src/views:
+    newFile: !uuid '722aa6029528aa4886f9e45e102353fa2e6ff248'
+    oldFile: null
+  /src/views/About.vue:
+    newFile: !uuid '3fa28070de24f2055171ca2e20543881cb7fdf1c'
+    oldFile: null
+  /src/views/Home.vue:
+    newFile: !uuid '8bd6c57f306571c13dab5ce8ee5dab0d3e03eeeb'
+    oldFile: null
+gitCommitId: !uuid 'dd5bbaefef22daa360aedb56769a966a68f3bb24'
+renames: {
+  }
+revisionId: 1
