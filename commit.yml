@@ -2,10 +2,40 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '12a782f876e5c37793758a61f08f616ba2e6a49b'
-    oldFile: !uuid 'e18e46e2d334400dfdd7383da252e65b319e5ba7'
-gitCommitId: !uuid 'd1777cea2040ecd147508cb0e6b005791dfd477d'
+  /src:
+    newFile: !uuid '48eda8d15d87e470975bc1477225c00a6ebfdf46'
+    oldFile: !uuid '51717aa25a74b58a7415d0b0afc540ad040a924e'
+  /src/components:
+    newFile: !uuid '7d17d526c84e1e100df15053c78d18833d01d4b5'
+    oldFile: !uuid '805e8d509d4917e383c05c26f45d7e5d5c9981d9'
+  /src/components/echart:
+    newFile: !uuid 'ec81aa0034ce4ccea9a66ccd7eb0c1b753d7e34b'
+    oldFile: !uuid '8d84749857369e9adea6f61e49e3936a29f9fb55'
+  /src/components/echart/bottom:
+    newFile: !uuid 'f2a1228e20ca6320b1ea4f39d08f716fe916872b'
+    oldFile: !uuid '4ac705600d9b7158b7002450012ea30d00ba3f98'
+  /src/components/echart/bottom/bottomRightChart.vue:
+    newFile: !uuid '35cf7cb6a1353204cd6ba56838e7c291823f6fe8'
+    oldFile: !uuid 'a09034630a1f27f6e8ea55ca69a0b30236c1a600'
+  /src/views:
+    newFile: !uuid '06ca5dc1d51bfe044f64c13427b85488dea07263'
+    oldFile: !uuid '1baa0fee37bb29f6da89661d4cf18467829103e8'
+  /src/views/bottomLeft.vue:
+    newFile: !uuid '3a735ddaf214f86ffc0a94c1feeab5b903dfaad6'
+    oldFile: !uuid '01d9284c5f6eed1fa46d8b90dd93fff69f174c72'
+  /src/views/center.vue:
+    newFile: !uuid 'da48887f42bd370b0c5da5786201b0b2edefe8bf'
+    oldFile: !uuid '6403b789a7c54774b4dba86b139775b5248f07f9'
+  /src/views/centreLeft1.vue:
+    newFile: !uuid '9dec5b1fda0979b931aa330e86bce83b73ef1b1c'
+    oldFile: !uuid 'c90e566276c58d27ad0ddb5c59cea362d090c028'
+  /src/views/centreRight1.vue:
+    newFile: !uuid 'de15cb9952b528bc3604cb6151ae74fea4590056'
+    oldFile: !uuid '56e55a636b02014825d64af16fef71643269084c'
+  /src/views/index.vue:
+    newFile: !uuid '020bb12d6f91483e5ad48b257247e2a82b013e0e'
+    oldFile: !uuid 'cd5ca12a7c5cea6e720b0c7f9a6f533770c14823'
+gitCommitId: !uuid '11d23273828b11d7c04173e0b0ed81d73af5c461'
 renames: {
   }
-revisionId: 11
+revisionId: 12
