@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '87de0fa615bbd315cf07640a8c7eb305af7bff9c'
-    oldFile: !uuid '48eda8d15d87e470975bc1477225c00a6ebfdf46'
-  /src/assets:
-    newFile: !uuid 'a0d590ab9f75af8ec6a825eecdb0b19c151cc4e6'
-    oldFile: !uuid 'bb574db083a61a3b5b63d3b200b7bbd1575bed6e'
-  /src/assets/title-bg.png:
+    newFile: !uuid '6035ed0719163ee319136e3c559447ff257162e8'
+    oldFile: !uuid '87de0fa615bbd315cf07640a8c7eb305af7bff9c'
+  /src/components:
+    newFile: !uuid '89551e4f000108e5588b5f3c6c4ef5eebf28b63c'
+    oldFile: !uuid '7d17d526c84e1e100df15053c78d18833d01d4b5'
+  /src/components/echart:
+    newFile: !uuid 'a2b08616fb5cea23863d9d6dd8235c2cb2acfe59'
+    oldFile: !uuid 'ec81aa0034ce4ccea9a66ccd7eb0c1b753d7e34b'
+  /src/components/echart/centreRightListChart.vue:
     newFile: null
-    oldFile: !uuid 'faf790bdd66bbdbdd5430bb378c832c1e9f105cd'
-gitCommitId: !uuid '1721326beddff60cd6f44954988d3e8c760f4f93'
+    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+gitCommitId: !uuid '88f3fba8464e95c506d6dd06ea5c30e83398b320'
 renames: {
   }
-revisionId: 15
+revisionId: 16
