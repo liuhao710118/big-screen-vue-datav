@@ -2,19 +2,44 @@
 branches: {
   }
 fileChange:
+  /README.md:
+    newFile: !uuid '2ace65ec0e0003b3b1bca389f2f1232304eb8302'
+    oldFile: !uuid '7f5eb138ccafe01c2714e8cf0ffb3a0ebb026bdd'
   /src:
-    newFile: !uuid '6035ed0719163ee319136e3c559447ff257162e8'
-    oldFile: !uuid '87de0fa615bbd315cf07640a8c7eb305af7bff9c'
+    newFile: !uuid 'b692ab23ab31ddb69ecb6d03c05716de3f213c8f'
+    oldFile: !uuid '6035ed0719163ee319136e3c559447ff257162e8'
   /src/components:
-    newFile: !uuid '89551e4f000108e5588b5f3c6c4ef5eebf28b63c'
-    oldFile: !uuid '7d17d526c84e1e100df15053c78d18833d01d4b5'
+    newFile: !uuid '290a34ace2b71934ffa87a4af6851c3dade0b29c'
+    oldFile: !uuid '89551e4f000108e5588b5f3c6c4ef5eebf28b63c'
   /src/components/echart:
-    newFile: !uuid 'a2b08616fb5cea23863d9d6dd8235c2cb2acfe59'
-    oldFile: !uuid 'ec81aa0034ce4ccea9a66ccd7eb0c1b753d7e34b'
-  /src/components/echart/centreRightListChart.vue:
+    newFile: !uuid '8ea3b45e85f41a60ec97bdc4fe9e43f2474f3dc1'
+    oldFile: !uuid 'a2b08616fb5cea23863d9d6dd8235c2cb2acfe59'
+  /src/components/echart/centerLeft2:
+    newFile: !uuid 'f21070a166e7549967dd0786d65ccd00c674a6b3'
+    oldFile: null
+  /src/components/echart/centerLeft2/centreLeft1Chart.vue:
+    newFile: !uuid '4a5082f3fc3a174b74dc3607c4ec794456609e6e'
+    oldFile: null
+  /src/components/echart/centerLeft2/centreLeft2Chart.vue:
+    newFile: !uuid 'b2f6f64b4e51c5f9740a5fcc66d1e13c5e9dd19b'
+    oldFile: null
+  /src/components/echart/centreLeft1Chart.vue:
     newFile: null
-    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
-gitCommitId: !uuid '88f3fba8464e95c506d6dd06ea5c30e83398b320'
-renames: {
-  }
-revisionId: 16
+    oldFile: !uuid '4a5082f3fc3a174b74dc3607c4ec794456609e6e'
+  /src/components/echart/centreLeft2Chart.vue:
+    newFile: null
+    oldFile: !uuid 'b2f6f64b4e51c5f9740a5fcc66d1e13c5e9dd19b'
+  /src/views:
+    newFile: !uuid '9fbfa4bea39da473e45a77b1cf239159ed6d31ba'
+    oldFile: !uuid '06ca5dc1d51bfe044f64c13427b85488dea07263'
+  /src/views/centreLeft1.vue:
+    newFile: !uuid '9dc8ac5ef0db9728f88bbfb922a91966a6deaa93'
+    oldFile: !uuid '9dec5b1fda0979b931aa330e86bce83b73ef1b1c'
+  /src/views/centreLeft2.vue:
+    newFile: !uuid 'd6a076849ee373b1303cdc3493ad6e86dc195f14'
+    oldFile: !uuid '789d42ecd75c48d94b52092db97dbbce907897f9'
+gitCommitId: !uuid '1688f2996716ca564c9f088ba5791e5983f42267'
+renames:
+  /src/components/echart/centerLeft2/centreLeft1Chart.vue: /src/components/echart/centreLeft1Chart.vue
+  /src/components/echart/centerLeft2/centreLeft2Chart.vue: /src/components/echart/centreLeft2Chart.vue
+revisionId: 17
