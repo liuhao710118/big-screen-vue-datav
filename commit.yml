@@ -3,9 +3,42 @@ branches: {
   }
 fileChange:
   /README.md:
-    newFile: !uuid 'e7b4ea2683db988d29ed76e26d8c8bb837b0e99f'
-    oldFile: !uuid '895ba8333b0a9b7aca40318bee4afdf61db2c6b7'
-gitCommitId: !uuid 'c838f9abc2f09a67252b1f8ffc387ad2d49698f9'
-renames: {
-  }
-revisionId: 28
+    newFile: !uuid '3c5464fb592b09e6ffbebb743a07938130fc6d34'
+    oldFile: !uuid 'e7b4ea2683db988d29ed76e26d8c8bb837b0e99f'
+  /src:
+    newFile: !uuid '575f1c35b42000aad5bc18e4ce543c73543a26e9'
+    oldFile: !uuid 'b81ab16d7d235bf335c9b6972a0997d9c5af5937'
+  /src/components:
+    newFile: !uuid '789bc62f00760f667f4572621b36816f1d1904bc'
+    oldFile: !uuid '290a34ace2b71934ffa87a4af6851c3dade0b29c'
+  /src/components/echart:
+    newFile: !uuid '603f3969fa0b3e2804a12f5bef4ded93bef0776a'
+    oldFile: !uuid '8ea3b45e85f41a60ec97bdc4fe9e43f2474f3dc1'
+  /src/components/echart/center:
+    newFile: !uuid '95ed51952061f9d73da6b64ffa137423860b27db'
+    oldFile: !uuid '03777f2f653116f7f3ba38a58ca1684f385c8dbb'
+  /src/components/echart/center/centerChart1.vue:
+    newFile: null
+    oldFile: !uuid 'bace033560fc57b3b96d7f40fef65b22d24aea46'
+  /src/components/echart/center/centerChart2.vue:
+    newFile: null
+    oldFile: !uuid 'dfc108fbc92dabf7462b29c3c6bd568126e444a5'
+  /src/components/echart/center/centerChartRate.vue:
+    newFile: !uuid 'f76c519a0cd829f82bca8fae0739f57c77a0bbee'
+    oldFile: null
+  /src/views:
+    newFile: !uuid '03e6bff5761f2ad9b30292b0646973a723801d52'
+    oldFile: !uuid '9fbfa4bea39da473e45a77b1cf239159ed6d31ba'
+  /src/views/center.vue:
+    newFile: !uuid 'cd3d1da7279194f71110ba8c447a837cb0d2ad85'
+    oldFile: !uuid 'da48887f42bd370b0c5da5786201b0b2edefe8bf'
+  /src/views/centreLeft2.vue:
+    newFile: !uuid 'b87aa06698919bf7455875b52e3d79b6a5088cee'
+    oldFile: !uuid 'd6a076849ee373b1303cdc3493ad6e86dc195f14'
+  /src/views/index.vue:
+    newFile: !uuid '88f103e2d562cab71e1a7cef4fe9a4e85e95b453'
+    oldFile: !uuid '020bb12d6f91483e5ad48b257247e2a82b013e0e'
+gitCommitId: !uuid 'f2b118ed0b0f372db9f8bf4a2fa25227e74d76b6'
+renames:
+  /src/components/echart/center/centerChartRate.vue: /src/components/echart/center/centerChart1.vue
+revisionId: 29
