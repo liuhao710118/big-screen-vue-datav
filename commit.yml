@@ -3,33 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'dfd77f3451737e4c6f8ac6be5815f73a1b75bb27'
-    oldFile: !uuid 'f6d8e8a8a4470db5173b57242c39d7b180b51d47'
-  /src/assets:
-    newFile: !uuid 'b454a712facb27cd3c3685f2ba12fa7330b03729'
-    oldFile: !uuid '26f7ef6c3defc164e3d4f8a82c48be3a1d1287c4'
-  /src/assets/scss:
-    newFile: !uuid 'c5ca3c57990259739da64d8bf08044b269dd8c25'
-    oldFile: !uuid 'a79a0c2ab67fbb40b3997734c17439c4ca1a9325'
-  /src/assets/scss/index.scss:
-    newFile: !uuid '8e4a33b7a14fcbdf9aa5ee210651c18a5c23a17b'
-    oldFile: !uuid 'dfc52eb726c1e90e12c9e1fb653c20e8241ecd4d'
+    newFile: !uuid '0c76d5ba3634b963275bcc3dc92490860463170c'
+    oldFile: !uuid 'dfd77f3451737e4c6f8ac6be5815f73a1b75bb27'
+  /src/common:
+    newFile: !uuid '2e9113c8ddd7f7c96327ca28f71947d37a140728'
+    oldFile: !uuid 'cb84bec0d728c6f143b6a84255e192358e05e345'
+  /src/common/echarts:
+    newFile: !uuid 'e6d1db3e447f8cab164c06a8b532b057a2c94036'
+    oldFile: null
+  /src/common/echarts/index.vue:
+    newFile: !uuid '07055dc9afc1aadb3c8bc38ec7f4f279d55037b5'
+    oldFile: null
+  /src/common/echarts/theme.json:
+    newFile: !uuid 'ce81abab39ba32639bd84a71af9d8ad9df7860ad'
+    oldFile: null
   /src/utils:
-    newFile: !uuid '7d06eab5afa36898bfbf54013ea02f22d7f74c6e'
-    oldFile: !uuid '60429a019e653836a7d165e24b47f0e2fe4d8327'
-  /src/utils/index.js:
-    newFile: !uuid '3d5a51afd4ad95703f3107c5383d733cbcd84a69'
-    oldFile: !uuid '1fb622d31028dfbd00b89fa4badfc4d8f15b88c3'
-  /src/views:
-    newFile: !uuid '3b0aacdc41e0eeb8927013de1e6fcfb048cb3416'
-    oldFile: !uuid '4b327dd7608a0477cf0732995d0b8f2b171c0204'
-  /src/views/center.vue:
-    newFile: !uuid '9283c7cbab59da58e1290bc8abd2579c7ad9ff3a'
-    oldFile: !uuid '6d2d841c1da8f995e2e694802f435a6ac405121d'
-  /src/views/index.vue:
-    newFile: !uuid '092f8e1bd05bd30b59d52f8781c08060cf67ad81'
-    oldFile: !uuid 'ea4113cecf209ceef58e770aa2a3f3882a188186'
-gitCommitId: !uuid '3b6679388a69be03d5f07ae7a42c272925ffa1d0'
+    newFile: !uuid 'ddea76ca9c84def0cb465a384f949accbc59e1d8'
+    oldFile: !uuid '7d06eab5afa36898bfbf54013ea02f22d7f74c6e'
+  /src/utils/resizeMixins.js:
+    newFile: !uuid 'c8a9d39f7e58c77ac5cc8d8cd348a1ec648e1fc7'
+    oldFile: !uuid '8caae20f3416fa922da5b2ce64f06194080d0cfa'
+gitCommitId: !uuid '3060b6b1e82bc1df639b30d4e0e70e9e6d9109fe'
 renames: {
   }
-revisionId: 36
+revisionId: 37
