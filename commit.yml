@@ -3,95 +3,142 @@ branches: {
   }
 fileChange:
   /README.md:
-    newFile: !uuid 'd83742deebfeb2957a51cec5817a1f637de14138'
-    oldFile: !uuid '13b7fec66739038dd16544d13849f9b1498c8b6b'
+    newFile: !uuid '14c4098130576aa91c91a63ec07ae70912fbf7b2'
+    oldFile: !uuid 'd83742deebfeb2957a51cec5817a1f637de14138'
   /src:
-    newFile: !uuid 'ad28056b4fad5655639c147541e8b837132e1d07'
-    oldFile: !uuid '0c76d5ba3634b963275bcc3dc92490860463170c'
+    newFile: !uuid 'a544cea9742434575a08debafe51f4e54ce9afb3'
+    oldFile: !uuid 'ad28056b4fad5655639c147541e8b837132e1d07'
+  /src/common:
+    newFile: !uuid '5beaba3cea14b054b98bd44261993308b3b5fead'
+    oldFile: !uuid '2e9113c8ddd7f7c96327ca28f71947d37a140728'
+  /src/common/echart:
+    newFile: !uuid 'f0760298304006b1f637a85a32b2d057679415ed'
+    oldFile: null
+  /src/common/echart/index.vue:
+    newFile: !uuid 'b6ad8ebc7aaa9af2f353ee2f59adb8fc57ef19d8'
+    oldFile: null
+  /src/common/echart/theme.json:
+    newFile: !uuid 'ce81abab39ba32639bd84a71af9d8ad9df7860ad'
+    oldFile: null
+  /src/common/echarts:
+    newFile: null
+    oldFile: !uuid 'e6d1db3e447f8cab164c06a8b532b057a2c94036'
+  /src/common/echarts/index.vue:
+    newFile: null
+    oldFile: !uuid '07055dc9afc1aadb3c8bc38ec7f4f279d55037b5'
+  /src/common/echarts/theme.json:
+    newFile: null
+    oldFile: !uuid 'ce81abab39ba32639bd84a71af9d8ad9df7860ad'
   /src/components:
-    newFile: !uuid '42a3ea54530afff08057af7f8fc96e4e90231122'
-    oldFile: !uuid '39ac43471b019ca0212c3c150e6e38733d39f056'
+    newFile: !uuid 'b2492b7814c58b5b0d8cad67e5ba4982bff0ea5f'
+    oldFile: !uuid '42a3ea54530afff08057af7f8fc96e4e90231122'
   /src/components/echart:
-    newFile: !uuid '16d777290659c41586559ec62f73b9a6787fd121'
-    oldFile: !uuid '95d897af522bfb4cbe349f12be0f327628567c73'
+    newFile: !uuid 'eb78335eaa1517da5f0817e5a6bc73daf01ee6fc'
+    oldFile: !uuid '16d777290659c41586559ec62f73b9a6787fd121'
   /src/components/echart/bottom:
-    newFile: !uuid 'c1610845f6a5b02b957f40fbb70b3f8feb744654'
-    oldFile: !uuid 'f15ff8e7e6d4e9699b76b241d56ea5e9a650d8e6'
+    newFile: !uuid 'df3b4e100d3873458d31affa3d1ccb50a1a243af'
+    oldFile: !uuid 'c1610845f6a5b02b957f40fbb70b3f8feb744654'
+  /src/components/echart/bottom/bottomLeftChart:
+    newFile: !uuid '476538ecb357c71a68436883727b018fd40ab091'
+    oldFile: null
   /src/components/echart/bottom/bottomLeftChart.vue:
-    newFile: !uuid '790c7a92b7e7a45bccadca2c83c2c4a117a2bc0d'
-    oldFile: !uuid 'd8f419972833079ee36e14d347ba80c9f02e3197'
+    newFile: null
+    oldFile: !uuid '790c7a92b7e7a45bccadca2c83c2c4a117a2bc0d'
+  /src/components/echart/bottom/bottomLeftChart/chart.vue:
+    newFile: !uuid '9caf326d62616523ab0b1a1555679d919aa12e8a'
+    oldFile: null
+  /src/components/echart/bottom/bottomLeftChart/index.vue:
+    newFile: !uuid '1a78ba5435383bfbecdc46c41fbf81f30afe1f55'
+    oldFile: null
+  /src/components/echart/bottom/bottomRightChart:
+    newFile: !uuid '4180c61e87d4c8d8eb9001db36665963e10016f5'
+    oldFile: null
   /src/components/echart/bottom/bottomRightChart.vue:
-    newFile: !uuid '4edc2691c286ce7ac541e0499ea2f8fa75581a99'
-    oldFile: !uuid '4330c5656938072a78f34657d08caf4c258f09eb'
+    newFile: null
+    oldFile: !uuid '4edc2691c286ce7ac541e0499ea2f8fa75581a99'
+  /src/components/echart/bottom/bottomRightChart/chart.vue:
+    newFile: !uuid 'df0230fc84b7f4a2ae7d982f2370604333850273'
+    oldFile: null
+  /src/components/echart/bottom/bottomRightChart/index.vue:
+    newFile: !uuid '789fec82bb2a6cee302159f16a15f113fa21c79e'
+    oldFile: null
   /src/components/echart/center:
-    newFile: !uuid '804802c08e7f3fa298315597cabc868f351adb42'
-    oldFile: !uuid '93ed2e866e5adfdbe133ded204fc6b0e7aac29b9'
+    newFile: !uuid 'fb4119fff6afdc6537802f8b3ee0ae8deb1a8cf2'
+    oldFile: !uuid '804802c08e7f3fa298315597cabc868f351adb42'
+  /src/components/echart/center/centerChartRate:
+    newFile: !uuid 'ea5f6de7fdf50c81b90eb10d65a6d40bf76e616d'
+    oldFile: null
   /src/components/echart/center/centerChartRate.vue:
-    newFile: !uuid '7f664d028b8a1edc5ea8b219741128fe3cd28b9a'
-    oldFile: !uuid 'be0021c92216e405272366a9feb68724cfbfc6c6'
+    newFile: null
+    oldFile: !uuid '7f664d028b8a1edc5ea8b219741128fe3cd28b9a'
+  /src/components/echart/center/centerChartRate/index.vue:
+    newFile: !uuid 'fe811f725a02e554fca69391a032ac99b06c97fa'
+    oldFile: null
   /src/components/echart/centerLeft:
-    newFile: !uuid '95fc6d599ea39748a4b12ce611f56c867576d08e'
+    newFile: !uuid 'e7f84a481a320d2377f2c11e8b1aa3099248c639'
+    oldFile: !uuid '95fc6d599ea39748a4b12ce611f56c867576d08e'
+  /src/components/echart/centerLeft/centerLeft1Chart:
+    newFile: !uuid 'f9391c87c14e776cad5bcf1d050e13150ddea82d'
+    oldFile: null
+  /src/components/echart/centerLeft/centerLeft1Chart/chart.vue:
+    newFile: !uuid 'a8e20c771f9b28ec1e989532ea5e5856553f0375'
+    oldFile: null
+  /src/components/echart/centerLeft/centerLeft1Chart/index.vue:
+    newFile: !uuid '3763944eeca493db12e2b3a78b28419750db7dbd'
+    oldFile: null
+  /src/components/echart/centerLeft/centerLeft2Chart:
+    newFile: !uuid '74b175bdad15975599d7c265dc541a5beab957bf'
+    oldFile: null
+  /src/components/echart/centerLeft/centerLeft2Chart/chart.vue:
+    newFile: !uuid '627f63d7b1a1331139567de4c016af490e3b68f3'
+    oldFile: null
+  /src/components/echart/centerLeft/centerLeft2Chart/index.vue:
+    newFile: !uuid '56e845f71f2feb19651fed90844dbd8e43092cb4'
     oldFile: null
   /src/components/echart/centerLeft/centreLeft1Chart.vue:
-    newFile: !uuid 'c407d5047a0bfea9a531b628aa3b7b2e6b1cb5e7'
-    oldFile: null
-  /src/components/echart/centerLeft/centreLeft2Chart.vue:
-    newFile: !uuid 'fd58ed82a53122b371043db8442927120d31cb09'
-    oldFile: null
-  /src/components/echart/centerLeft2:
-    newFile: null
-    oldFile: !uuid '33b5ad393c762a3608f9c348dc757cebb41099b0'
-  /src/components/echart/centerLeft2/centreLeft1Chart.vue:
     newFile: null
     oldFile: !uuid 'c407d5047a0bfea9a531b628aa3b7b2e6b1cb5e7'
-  /src/components/echart/centerLeft2/centreLeft2Chart.vue:
+  /src/components/echart/centerLeft/centreLeft2Chart.vue:
     newFile: null
-    oldFile: !uuid '8903a16be16161d9d41dbbdc5c814e3152cdeaf0'
+    oldFile: !uuid 'fd58ed82a53122b371043db8442927120d31cb09'
   /src/components/echart/centerRight:
-    newFile: !uuid '00989fa51892a16758e929e6422172b5c8c583f5'
-    oldFile: null
+    newFile: !uuid '417aeaec9e7197a55293dc062b127996658f1db4'
+    oldFile: !uuid '00989fa51892a16758e929e6422172b5c8c583f5'
   /src/components/echart/centerRight/centerRight2Chart.vue:
-    newFile: !uuid '796f7918ea4f05dabe22709a54489e0b0ba5cc0b'
+    newFile: null
+    oldFile: !uuid '796f7918ea4f05dabe22709a54489e0b0ba5cc0b'
+  /src/components/echart/centerRight/centerRightChart:
+    newFile: !uuid '191a9671d03406b752417b6284100d4e7cb4f943'
     oldFile: null
-  /src/components/echart/centreRight2:
-    newFile: null
-    oldFile: !uuid 'f5ca07a82251be8e8a9cb7935f941d7409a9e402'
-  /src/components/echart/centreRight2/centreRight2Chart1.vue:
-    newFile: null
-    oldFile: !uuid '2c89f2877107aba171850899038c101f0d2e6737'
+  /src/components/echart/centerRight/centerRightChart/chart.vue:
+    newFile: !uuid 'f8fae6a5bb1953bfb7955050abe7536a7cb50e75'
+    oldFile: null
+  /src/components/echart/centerRight/centerRightChart/index.vue:
+    newFile: !uuid 'cdab9a7a5e2c8cdb08bf825521c5d2840ec5ba10'
+    oldFile: null
   /src/utils:
-    newFile: !uuid '24a345cc27679aadd14baa9ca8350a94411d73eb'
-    oldFile: !uuid 'ddea76ca9c84def0cb465a384f949accbc59e1d8'
-  /src/utils/index.js:
-    newFile: !uuid '14e554dec9ecf66bf08996db38fe7d5fded6c228'
-    oldFile: !uuid '3d5a51afd4ad95703f3107c5383d733cbcd84a69'
+    newFile: !uuid '7a3ab5b75e088a748a408dbe0ee5da559f56fda3'
+    oldFile: !uuid '24a345cc27679aadd14baa9ca8350a94411d73eb'
   /src/utils/resizeMixins.js:
-    newFile: !uuid '0c95809c4a32d2e33588eaf19dd2d258d5ea6f18'
-    oldFile: !uuid 'c8a9d39f7e58c77ac5cc8d8cd348a1ec648e1fc7'
+    newFile: !uuid 'cdefacfbc0a4f7b49dc0fe0715b076f06c04b6fc'
+    oldFile: !uuid '0c95809c4a32d2e33588eaf19dd2d258d5ea6f18'
   /src/views:
-    newFile: !uuid 'c8564c24c7674e6a29a96836080415374d7e60b7'
-    oldFile: !uuid '3b0aacdc41e0eeb8927013de1e6fcfb048cb3416'
-  /src/views/bottomLeft.vue:
-    newFile: !uuid 'b3ae1c0f9ad2fd6aef27f8bf7a01a9d0e3c43625'
-    oldFile: !uuid 'e4fd8625c62d98f5e878e67dfca26f4b9fef611e'
+    newFile: !uuid 'eb060ca383fdbf021fa38fe2205aaad271f5bf79'
+    oldFile: !uuid 'c8564c24c7674e6a29a96836080415374d7e60b7'
   /src/views/bottomRight.vue:
-    newFile: !uuid '2217ad3b3649f21775e86178abec8e725aed9046'
-    oldFile: !uuid '30d73950f4adb5ac2dff5824275707dd093d9340'
-  /src/views/center.vue:
-    newFile: !uuid '7f4578c533f556bf20cc3e700adf1b973804b405'
-    oldFile: !uuid '9283c7cbab59da58e1290bc8abd2579c7ad9ff3a'
+    newFile: !uuid 'e38316a7b85a34188e984bb3b200c68700e11d96'
+    oldFile: !uuid '2217ad3b3649f21775e86178abec8e725aed9046'
   /src/views/centerLeft1.vue:
-    newFile: !uuid '46ed4c667603c0514b3dbbf69fe80c331a0b2f4c'
-    oldFile: !uuid 'c0c105e9205f4367bf707efe3afc552ccf32e2b0'
+    newFile: !uuid 'a7e8cd5f57a1ef38b6f518c2ad200c22bf018b03'
+    oldFile: !uuid '46ed4c667603c0514b3dbbf69fe80c331a0b2f4c'
   /src/views/centerLeft2.vue:
-    newFile: !uuid '7d720b6eb878753e8ac79820c4b63a936d299559'
-    oldFile: !uuid '6a5cf98648bef3d268af8ab8a62fe7da341ed29e'
+    newFile: !uuid 'ee73a7524eb01127fab57aaec2691a5e2b444784'
+    oldFile: !uuid '7d720b6eb878753e8ac79820c4b63a936d299559'
   /src/views/centerRight2.vue:
-    newFile: !uuid '75d754b5312de2882ffabf4a5bbfaeef8f5e0124'
-    oldFile: !uuid '878c0da3a0a93fa9d728fe711b2d8c6be973f6a8'
-gitCommitId: !uuid '56abfe11be527037576296de88228da3ce247095'
+    newFile: !uuid '48c2bbfca57c67ba2fabc779710d2547332eae77'
+    oldFile: !uuid '75d754b5312de2882ffabf4a5bbfaeef8f5e0124'
+gitCommitId: !uuid 'ec7140ff25ebe85a21f0bdc7bbc927cd82ea08e9'
 renames:
-  /src/components/echart/centerLeft/centreLeft1Chart.vue: /src/components/echart/centerLeft2/centreLeft1Chart.vue
-  /src/components/echart/centerLeft/centreLeft2Chart.vue: /src/components/echart/centerLeft2/centreLeft2Chart.vue
-  /src/components/echart/centerRight/centerRight2Chart.vue: /src/components/echart/centreRight2/centreRight2Chart1.vue
-revisionId: 38
+  /src/common/echart/index.vue: /src/common/echarts/index.vue
+  /src/common/echart/theme.json: /src/common/echarts/theme.json
+revisionId: 39
