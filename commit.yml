@@ -3,36 +3,9 @@ branches: {
   }
 fileChange:
   /README.md:
-    newFile: !uuid '12fecf7972e178b957788dd3f6462c17e91c3671'
-    oldFile: !uuid '14c4098130576aa91c91a63ec07ae70912fbf7b2'
-  /src:
-    newFile: !uuid '9cc5e8b26ba234d2b8f6a2e22b844a3a69a0b502'
-    oldFile: !uuid 'a544cea9742434575a08debafe51f4e54ce9afb3'
-  /src/components:
-    newFile: !uuid '1390be0769020ea9efe2df74126e26d9fedfc147'
-    oldFile: !uuid 'b2492b7814c58b5b0d8cad67e5ba4982bff0ea5f'
-  /src/components/echart:
-    newFile: !uuid 'bbc0430d3fa9ac32f1102feb6e3be760c6d9d6cf'
-    oldFile: !uuid 'eb78335eaa1517da5f0817e5a6bc73daf01ee6fc'
-  /src/components/echart/bottom:
-    newFile: !uuid 'cb9fefb2b424ac3dd692166fb0220910c2964f14'
-    oldFile: !uuid 'df3b4e100d3873458d31affa3d1ccb50a1a243af'
-  /src/components/echart/bottom/bottomRightChart:
-    newFile: !uuid '0f0850c563389cbcb162501474355d3a99cf0c05'
-    oldFile: !uuid '4180c61e87d4c8d8eb9001db36665963e10016f5'
-  /src/components/echart/bottom/bottomRightChart/index.vue:
-    newFile: !uuid 'd8cd47f8638dade5ed98357862a898fc45386cff'
-    oldFile: !uuid '789fec82bb2a6cee302159f16a15f113fa21c79e'
-  /src/utils:
-    newFile: !uuid 'b3a77e04dc2d866e0266e87db2d790f278533f36'
-    oldFile: !uuid '7a3ab5b75e088a748a408dbe0ee5da559f56fda3'
-  /src/utils/index.js:
-    newFile: !uuid '0452fb52d3bc623fcf804aa65827e2ea59653850'
-    oldFile: !uuid '14e554dec9ecf66bf08996db38fe7d5fded6c228'
-  /src/utils/resizeMixins.js:
-    newFile: !uuid 'a4d25bcf5e1170ca2f92074ee6b492bf43f4b085'
-    oldFile: !uuid 'cdefacfbc0a4f7b49dc0fe0715b076f06c04b6fc'
-gitCommitId: !uuid 'b851d0951a8eb09cf660d6438f2d1d57f5af1593'
+    newFile: !uuid 'cfddd0d2e51e496e46675781ea13298642b08827'
+    oldFile: !uuid '12fecf7972e178b957788dd3f6462c17e91c3671'
+gitCommitId: !uuid 'ebaba1c5b2edd00b9b6a72fb2d5b987535a7b294'
 renames: {
   }
-revisionId: 40
+revisionId: 41
