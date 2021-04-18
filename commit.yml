@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid 'da6cafae4e14a344f6c208bb6122d68216221477'
-    oldFile: !uuid 'd0bf7352d07cd9c5deb1c267467d09009c6af55e'
-  /src/common:
-    newFile: !uuid '7eb39ee4b06bde2d13584b5962bbb993c921d093'
-    oldFile: !uuid '93c2c85cf1218dc7d0bd8b992e7e1c3d1e423037'
-  /src/common/map:
-    newFile: !uuid '873edf240bb05b61b6a0bb3453e48dd0d960de94'
-    oldFile: !uuid '8b6995962fe220dd45487193d7bd34d8bf673f3b'
-  /src/common/map/fujian.js:
-    newFile: !uuid 'c6f2c3f3ebe8b35f5775cfc17d2d4349503d6b74'
-    oldFile: !uuid 'c85a63af27623ca2ca1df1dede8573c4792635c9'
-gitCommitId: !uuid '4b58e04f9e34f403cee9e44fcf964d9a73f9e9ed'
+  /README.md:
+    newFile: !uuid 'd9f69eec829e9a3a2bd16bf2985c667ef2ac189b'
+    oldFile: !uuid 'bbb525664ce11e0333a99d37a20cb2ed5b66eef3'
+gitCommitId: !uuid 'f378ae82f7b1b265e299c36356a6843ef2f264fd'
 renames: {
   }
-revisionId: 45
+revisionId: 46
