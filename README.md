@@ -49,7 +49,7 @@
 参数名称              | 类型      | 作用/功能                      |
 | -------------------| --------- | ------------------------------|
 | id                 | String    | 唯一 id，渲染图表的节点（非必填，使用了 $el）|
-| className          | String    | class样式名称（非必填）                 |
+| className          | String    | class样式名称（非必填）                 |11111111111111111111111
 | options            | Object    | ECharts 配置（必填）                   |
 | height             | String    | 图表高度（建议填）                    |
 | width              | String    | 图表宽度（建议填）                    |
