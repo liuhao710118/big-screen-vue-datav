@@ -3,9 +3,12 @@ branches: {
   }
 fileChange:
   /README.md:
-    newFile: !uuid '1b3ceb75ef9f6bc81a8f8c3794294241a21ba750'
-    oldFile: !uuid '7c6f7f36afe4ba313c313ff822b98e0c3c7853be'
-gitCommitId: !uuid '46d7ec41c2a0fe8119d9db953340352fa59da28f'
+    newFile: !uuid 'da1886404c7b9f6e6791d5b52df48c1571ae737f'
+    oldFile: !uuid '1b3ceb75ef9f6bc81a8f8c3794294241a21ba750'
+  /yarn.lock:
+    newFile: !uuid '1be35e42aaac0cb0a631ddd5112aefa2c9c2dcb2'
+    oldFile: null
+gitCommitId: !uuid '66db083c941bfcfcbe87beb3f486a7938207555d'
 renames: {
   }
-revisionId: 50
+revisionId: 51
