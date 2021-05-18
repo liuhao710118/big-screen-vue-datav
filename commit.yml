@@ -2,13 +2,19 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'da1886404c7b9f6e6791d5b52df48c1571ae737f'
-    oldFile: !uuid '1b3ceb75ef9f6bc81a8f8c3794294241a21ba750'
-  /yarn.lock:
-    newFile: !uuid '1be35e42aaac0cb0a631ddd5112aefa2c9c2dcb2'
-    oldFile: null
-gitCommitId: !uuid '66db083c941bfcfcbe87beb3f486a7938207555d'
+  /package-lock.json:
+    newFile: !uuid '0c7e1b216519821d9a2ef2a790ab6e4499311e0f'
+    oldFile: !uuid 'c7559f9a42d54faddee73a623dbd09c70a2b47c5'
+  /src:
+    newFile: !uuid 'bc1ef8ec57fc4902bca655b02403a0e328d0c308'
+    oldFile: !uuid 'da6cafae4e14a344f6c208bb6122d68216221477'
+  /src/views:
+    newFile: !uuid 'ea404f9f5107914253d9f8af06da23ab434946c6'
+    oldFile: !uuid 'b685367e8206f1086163ccfdb76bdafb349558cd'
+  /src/views/centerLeft1.vue:
+    newFile: !uuid 'e0a258a70ff871f7ce33553000c90f70f2a0a356'
+    oldFile: !uuid 'a7e8cd5f57a1ef38b6f518c2ad200c22bf018b03'
+gitCommitId: !uuid 'cb0d6c69a72da2b01a2635caf50b2b7618e83e2b'
 renames: {
   }
-revisionId: 51
+revisionId: 52
