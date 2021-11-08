@@ -3,9 +3,24 @@ branches: {
   }
 fileChange:
   /package.json:
-    newFile: !uuid '02845fbfa6b706b61d893be99b9b5e07da6807f2'
-    oldFile: !uuid '6798b73e518f1be82ed9fd30c067891783f57f6b'
-gitCommitId: !uuid 'c33da92e6385b8d2e43820f3834400b93460ad8b'
+    newFile: !uuid '4d1f6a1d563f5defcc623f0039675e4c26408624'
+    oldFile: !uuid '02845fbfa6b706b61d893be99b9b5e07da6807f2'
+  /src:
+    newFile: !uuid '9462ecf2b8eb4f1976a9f9ade7418c9daf0b0e5b'
+    oldFile: !uuid '6a3f1c287110f15b977c7f58a62d75be4914c8b6'
+  /src/utils:
+    newFile: !uuid '97f6d5d08b0a75dd096321146d619ad3ce5cfe4c'
+    oldFile: !uuid '7541f85a73eaae2a0e4e2d725e623c5ba0877ab4'
+  /src/utils/drawMixin.js:
+    newFile: !uuid 'f928d87799f40b31a1bf17b6883b75082e5d96ae'
+    oldFile: !uuid 'f5aee1d4a699db5f5de640deac017ba31f603f8a'
+  /src/views:
+    newFile: !uuid 'f09e3c0a1bb4a1063c08c6a3fc9788c86ca9b204'
+    oldFile: !uuid '045cde6edb832caa1ad0e797c16bb1ffef124f93'
+  /src/views/index.vue:
+    newFile: !uuid '1511b31145eddb396b1a34ec67c69034226699d1'
+    oldFile: !uuid '9c95e8cb3ce9d9b50ba2ed9da36a920a03b5da0e'
+gitCommitId: !uuid '6346d043945748f291d833797dc315371e474e41'
 renames: {
   }
-revisionId: 63
+revisionId: 64
