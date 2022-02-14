@@ -2,25 +2,16 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '7f5c4045c720da1d81cb6e1081d06ef630f6291c'
-    oldFile: !uuid '9462ecf2b8eb4f1976a9f9ade7418c9daf0b0e5b'
-  /src/common:
-    newFile: !uuid 'a54da1803e05abdfe5f564a0db63c3ed281951fa'
-    oldFile: !uuid '10f6b2b7f079d2008c06ae63992c2aff9f24339d'
-  /src/common/echart:
-    newFile: !uuid '2ed06ea9a90424117724e6f23d764e4b5850bab5'
-    oldFile: !uuid 'b8763891f44e7f6b61e4cc3703e55260b7691c1e'
-  /src/common/echart/index.vue:
-    newFile: !uuid '6473245d2540a8c8b138f2828090dfbbcc68f814'
-    oldFile: !uuid '7db3a64e6dee90ee24e2a9bc6c95bbddc683a6d2'
-  /src/utils:
-    newFile: !uuid 'b25c62fe9e17f3f8aebb11d994f98a7a75d0ccfb'
-    oldFile: !uuid '97f6d5d08b0a75dd096321146d619ad3ce5cfe4c'
-  /src/utils/drawMixin.js:
-    newFile: !uuid '93e123673b2c098a05568b4828336d6c10491aca'
-    oldFile: !uuid 'f928d87799f40b31a1bf17b6883b75082e5d96ae'
-gitCommitId: !uuid '87bc0602bfc2c31c4a915c33f37fe4d8f83444b0'
+  /README.md:
+    newFile: !uuid '1e48cf5dad278944d5cb2af26bbb07c471cd8c61'
+    oldFile: !uuid '0f0848daad47922e9acb1d862dd32fa12376bacc'
+  /public:
+    newFile: !uuid '74d0dcc33323fcc8d2d83a765c36f98046964c0d'
+    oldFile: !uuid 'cc64c8894ca30af9cfbbc54ad9fba1ade0cd53e1'
+  /public/image.png:
+    newFile: !uuid '099507b238a18c0ec30cd39a5a2d9e0d929df5c1'
+    oldFile: null
+gitCommitId: !uuid '602454e1773e9e4d17447d9dd322908d3b503e05'
 renames: {
   }
-revisionId: 65
+revisionId: 66
