@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '46496e4aed2f21c500d5a47588a1e3398ceedade'
-    oldFile: !uuid '7f5c4045c720da1d81cb6e1081d06ef630f6291c'
-  /src/router:
-    newFile: !uuid 'e085583add8ab4141d7e4455722b87c50dabc37f'
-    oldFile: !uuid 'a7e7d92b6e723c6219578f838e282728b1aeaf50'
-  /src/router/index.js:
-    newFile: !uuid '5c1f8cd23ade9f1e86595a9b6d11bff2d95a2b34'
-    oldFile: !uuid '47f8d54881c0b0c2645c89392f722b9658e13079'
-gitCommitId: !uuid 'e50f06ebdde95077405081c85342b2a611e9c202'
+  /README.md:
+    newFile: !uuid 'b7ca974842dd9d7526e6d49d944334c8454d2ffd'
+    oldFile: !uuid '1e48cf5dad278944d5cb2af26bbb07c471cd8c61'
+gitCommitId: !uuid '3f8c53da8fe58839cf465cbab60abb7764dc4612'
 renames: {
   }
-revisionId: 67
+revisionId: 68
