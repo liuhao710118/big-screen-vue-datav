@@ -6,7 +6,7 @@
           <icon name="chart-line" class="text-icon"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">任务完成排行榜</span>
+          <span class="fs-xl text mx-2">个人数据排行榜</span>
         </div>
       </div>
       <div class="d-flex jc-center body-box">
@@ -21,20 +21,20 @@ export default {
   data() {
     return {
       config: {
-        header: ['组件', '分支', '覆盖率'],
+        header: ['姓名', '学校', '跳绳数量','最高跳速','最多连跳'],
         data: [
-          ['组件1', 'dev-1', "<span  class='colorGrass'>↑75%</span>"],
-          ['组件2', 'dev-2', "<span  class='colorRed'>↓33%</span>"],
-          ['组件3', 'dev-3', "<span  class='colorGrass'>↑100%</span>"],
-          ['组件4', 'rea-1', "<span  class='colorGrass'>↑94%</span>"],
-          ['组件5', 'rea-2', "<span  class='colorGrass'>↑95%</span>"],
-          ['组件6', 'fix-2', "<span  class='colorGrass'>↑63%</span>"],
-          ['组件7', 'fix-4', "<span  class='colorGrass'>↑84%</span>"],
-          ['组件8', 'fix-7', "<span  class='colorRed'>↓46%</span>"],
-          ['组件9', 'dev-2', "<span  class='colorRed'>↓13%</span>"],
-          ['组件10', 'dev-9', "<span  class='colorGrass'>↑76%</span>"]
+          ['李民浩', '实验一中', "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['崔晓之', '育才学校', "<span  class='colorRed'>↓33%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['黄颖一', '实验一中', "<span  class='colorGrass'>↑100%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['刘昊然', '实验一中', "<span  class='colorGrass'>↑94%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['何书年', '汇文中学', "<span  class='colorGrass'>↑95%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['卢强东', '实验一中', "<span  class='colorGrass'>↑63%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['贺子悦', '实验一中', "<span  class='colorGrass'>↑84%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['李嘉豪', '实验一中', "<span  class='colorRed'>↓46%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['龚雪天', '回民中学', "<span  class='colorRed'>↓13%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['穆思田', '育才学校', "<span  class='colorGrass'>↑76%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"]
         ],
-        rowNum: 7, //表格行数
+        rowNum: 15, //表格行数
         headerHeight: 35,
         headerBGC: '#0f1325', //表头
         oddRowBGC: '#0f1325', //奇数行
@@ -52,8 +52,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$box-height: 410px;
-$box-width: 300px;
+$box-height: 910px;
+$box-width: 500px;
 #centerRight1 {
   padding: 16px;
   padding-top: 20px;
@@ -71,8 +71,8 @@ $box-width: 300px;
     border-radius: 10px;
     overflow: hidden;
     .dv-scr-board {
-      width: 270px;
-      height: 340px;
+      width: 470px;
+      height: 900px;
     }
   }
 }

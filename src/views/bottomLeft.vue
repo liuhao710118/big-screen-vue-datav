@@ -1,5 +1,5 @@
 <template>
-  <div id="bottomLeft">
+  <div id="unitCompare">
     <div class="bg-color-black">
       <div class="d-flex pt-2 pl-2">
         <span>
@@ -10,25 +10,25 @@
         </div>
       </div>
       <div>
-        <BottomLeftChart />
+        <UnitCompare />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import BottomLeftChart from '@/components/echart/bottom/bottomLeftChart'
+import UnitCompare from '@/components/echart/unitCompare'
 export default {
   components: {
-    BottomLeftChart
+    UnitCompare
   }
 }
 </script>
 
 <style lang="scss" scoped>
-$box-height: 520px;
+$box-height: 300px;
 $box-width: 100%;
-#bottomLeft {
+#unitCompare {
   padding: 20px 16px;
   height: $box-height;
   width: $box-width;
