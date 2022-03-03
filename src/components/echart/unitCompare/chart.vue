@@ -4,7 +4,7 @@
     <Echart
       :options="options"
       id="unitCompare"
-      height="480px"
+      height="400px"
       width="100%"
     ></Echart>
   </div>
@@ -46,7 +46,7 @@ export default {
             }
           },
           legend: {
-            data: ["已贯通", "计划贯通", "贯通率"],
+            data: ["人均跳绳数量", "人均最高跳速"],
             textStyle: {
               color: "#B4B4B4"
             },
@@ -95,7 +95,7 @@ export default {
           ],
           series: [
             {
-              name: "贯通率",
+              name: "人均跳绳数量",
               type: "line",
               smooth: true,
               showAllSymbol: true,
@@ -107,10 +107,10 @@ export default {
                   color: "#F02FC2"
                 }
               },
-              data: newData.rateData
+              data: newData.lineData
             },
             {
-              name: "已贯通",
+              name: "人均最高跳速",
               type: "bar",
               barWidth: 10,
               itemStyle: {
@@ -123,24 +123,6 @@ export default {
                 }
               },
               data: newData.barData
-            },
-            {
-              name: "计划贯通",
-              type: "bar",
-              barGap: "-100%",
-              barWidth: 10,
-              itemStyle: {
-                normal: {
-                  barBorderRadius: 5,
-                  color: new this.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                    { offset: 0, color: "rgba(156,107,211,0.8)" },
-                    { offset: 0.2, color: "rgba(156,107,211,0.5)" },
-                    { offset: 1, color: "rgba(156,107,211,0.2)" }
-                  ])
-                }
-              },
-              z: -12,
-              data: newData.lineData
             }
           ]
         }

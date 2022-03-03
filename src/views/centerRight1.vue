@@ -32,6 +32,16 @@ export default {
           ['贺子悦', '实验一中', "<span  class='colorGrass'>↑84%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
           ['李嘉豪', '实验一中', "<span  class='colorRed'>↓46%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
           ['龚雪天', '回民中学', "<span  class='colorRed'>↓13%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['穆思田', '育才学校', "<span  class='colorGrass'>↑76%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['李民浩', '实验一中', "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['崔晓之', '育才学校', "<span  class='colorRed'>↓33%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['黄颖一', '实验一中', "<span  class='colorGrass'>↑100%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['刘昊然', '实验一中', "<span  class='colorGrass'>↑94%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['何书年', '汇文中学', "<span  class='colorGrass'>↑95%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['卢强东', '实验一中', "<span  class='colorGrass'>↑63%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['贺子悦', '实验一中', "<span  class='colorGrass'>↑84%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['李嘉豪', '实验一中', "<span  class='colorRed'>↓46%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
+          ['龚雪天', '回民中学', "<span  class='colorRed'>↓13%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"],
           ['穆思田', '育才学校', "<span  class='colorGrass'>↑76%</span>", "<span  class='colorGrass'>↑75%</span>", "<span  class='colorGrass'>↑75%</span>"]
         ],
         rowNum: 15, //表格行数
@@ -72,7 +82,7 @@ $box-width: 500px;
     overflow: hidden;
     .dv-scr-board {
       width: 470px;
-      height: 900px;
+      height: 800px;
     }
   }
 }

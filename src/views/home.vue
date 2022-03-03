@@ -8,7 +8,7 @@
           <div class="d-flex jc-center">
             <dv-decoration-8 class="dv-dec-8" :color="['#568aea', '#000000']" />
             <div class="title">
-              <span class="title-text">跳绳数据在线直播平台</span>
+              <span class="title-text">运动数据在线管理平台</span>
               <dv-decoration-6
                 class="dv-dec-6"
                 :reverse="true"
@@ -36,11 +36,11 @@
             </div> -->
           </div>
           <div class="d-flex aside-width">
-            <div class="react-right bg-color-blue mr-3">
+            <!-- <div class="react-right bg-color-blue mr-3">
               <span class="text fw-b">实时直播</span>
-            </div>
+            </div> -->
             <div class="react-right bg-color-blue mr-3">
-              <span class="text fw-b">数据统计</span>
+              <span class="text fw-b">跳绳数据统计</span>
             </div>
             <div class="react-right mr-4 react-l-s">
               <span class="react-after"></span>
@@ -52,42 +52,24 @@
         </div>
 
         <div class="body-box">
-          <!-- 第三行数据 -->
+          <!-- 数据 -->
           <div class="left-box">
             <div>
-              <dv-border-box-12>
-                <centerLeft1 />
-              </dv-border-box-12>
-            </div>
-            <!-- <div>
-              <dv-border-box-12>
-                <centerLeft2 />
-              </dv-border-box-12>
-            </div> -->
-            <!-- 中间 -->
-            <!-- <div>
-              <center />
-            </div> -->
-            <!-- 中间 -->
-            <!-- <div>
-              <centerRight2 />
-            </div> -->
-            <!-- <div>
               <dv-border-box-13>
-                <centerRight1 />
+                <unitStats />
               </dv-border-box-13>
-            </div> -->
+            </div>
           </div>
           <div class="center-box">
             <div class="center-top-box">
               <div>
-                <center />
+                <globalStats />
               </div>
             </div>
             <div class="center-bottom-box">
-              <dv-border-box-13>
+              <dv-border-box-12>
                 <bottomLeft />
-              </dv-border-box-13>
+              </dv-border-box-12>
             </div>
           </div>
           <div class="right-box">
@@ -95,15 +77,6 @@
               <centerRight1 />
             </dv-border-box-13>
           </div>
-          <!-- 第四行数据 -->
-          <!-- <div class="bototm-box">
-            <dv-border-box-13>
-              <bottomLeft />
-            </dv-border-box-13>
-            <dv-border-box-12>
-              <bottomRight />
-            </dv-border-box-12>
-          </div> -->
         </div>
       </div>
     </div>
@@ -113,13 +86,13 @@
 <script>
 import drawMixin from "../utils/drawMixin";
 import { formatTime } from "../utils/index.js";
-import centerLeft1 from "./centerLeft1";
+// import centerLeft1 from "./centerLeft1";
 // import centerLeft2 from './centerLeft2'
 import centerRight1 from "./centerRight1";
 // import centerRight2 from "./centerRight2";
-import center from "./center";
+import globalStats from "./globalStats";
 import bottomLeft from './bottomLeft'
-// import bottomRight from './bottomRight'
+import unitStats from './unitStats'
 
 export default {
   mixins: [drawMixin],
@@ -134,11 +107,12 @@ export default {
     };
   },
   components: {
-    centerLeft1,
+    // centerLeft1,
     // centerLeft2,
+    unitStats,
     centerRight1,
     // centerRight2,
-    center,
+    globalStats,
     bottomLeft,
     // bottomRight
   },

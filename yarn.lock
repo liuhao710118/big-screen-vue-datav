@@ -2320,6 +2320,11 @@
     "safe-buffer" "5.1.2"
     "vary" "~1.1.2"
 
+"comutils@^1.1.9":
+  "integrity" "sha512-JxXB67juILiwhdLwOsYyjUqwWEhHdObI0EClOPk+JDtEuTbac59s0pxGpfCBnNNQ5JommifmcMGneW/4Cg7YWw=="
+  "resolved" "http://eomstest.mtsportsdatas.cn:4873/comutils/-/comutils-1.1.19.tgz"
+  "version" "1.1.19"
+
 "concat-map@0.0.1":
   "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
   "resolved" "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz"
@@ -8045,6 +8050,13 @@
   "integrity" "sha1-RfWjo4Q+MXAsBh3YKTk1VOQyj4k="
   "resolved" "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.6.tgz?cache=0&sync_timestamp=1584203224109&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.1.6.tgz"
   "version" "3.1.6"
+
+"vue-seamless-scroll@^1.1.23":
+  "integrity" "sha512-HBjUub8WwsKJzbFCrwKPDrZn4e+SSbkKgwWtjKtfLwesiFGwSsVxP44/Z6d3kpXy94qIFOiflJH6l0/9pj7SGA=="
+  "resolved" "http://eomstest.mtsportsdatas.cn:4873/vue-seamless-scroll/-/vue-seamless-scroll-1.1.23.tgz"
+  "version" "1.1.23"
+  dependencies:
+    "comutils" "^1.1.9"
 
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.2":
   "integrity" "sha1-3t80mAbyXOtOZPOtfApE+6c1/Pg="
