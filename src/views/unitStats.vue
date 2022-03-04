@@ -42,7 +42,7 @@ export default {
           playerNum: 43,
           value: 1434.5,
           image:
-            "https://img3.chinadaily.com.cn/images/202012/28/5fe94bf6a3101e7c92075765.jpeg",
+            "./images/realSport.jpeg",
         },
         {
           orgName: "育才中学初三七班",

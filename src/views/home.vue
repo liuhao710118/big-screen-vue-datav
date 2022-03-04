@@ -68,13 +68,15 @@
             </div>
             <div class="center-bottom-box">
               <dv-border-box-12>
-                <bottomLeft />
+                <unitCompare />
               </dv-border-box-12>
             </div>
           </div>
           <div class="right-box">
             <dv-border-box-13>
-              <centerRight1 />
+              <!-- <top3 class="react-right-top"/> -->
+              <!-- <playerRank  class="react-right-bottom"/> -->
+              <playerRank/>
             </dv-border-box-13>
           </div>
         </div>
@@ -86,14 +88,11 @@
 <script>
 import drawMixin from "../utils/drawMixin";
 import { formatTime } from "../utils/index.js";
-// import centerLeft1 from "./centerLeft1";
-// import centerLeft2 from './centerLeft2'
-import centerRight1 from "./centerRight1";
-// import centerRight2 from "./centerRight2";
+import playerRank from "./playerRank";
 import globalStats from "./globalStats";
-import bottomLeft from './bottomLeft'
+import unitCompare from './unitCompare'
 import unitStats from './unitStats'
-
+// import top3 from './top3'
 export default {
   mixins: [drawMixin],
   data() {
@@ -107,14 +106,11 @@ export default {
     };
   },
   components: {
-    // centerLeft1,
-    // centerLeft2,
     unitStats,
-    centerRight1,
-    // centerRight2,
+    playerRank,
     globalStats,
-    bottomLeft,
-    // bottomRight
+    unitCompare,
+    // top3
   },
   mounted() {
     this.timeFn();

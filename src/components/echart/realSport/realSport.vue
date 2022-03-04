@@ -45,7 +45,6 @@
 </template>
 
 <script>
-// import CenterLeft1Chart from "@/components/echart/centerLeft/centerLeft1Chart";
 export default {
 	props: {
     unitStat: {

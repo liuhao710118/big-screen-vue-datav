@@ -3,7 +3,7 @@
     <!-- 年度开工率 -->
     <Echart
       :options="options"
-      id="unitCompare"
+      id="compare"
       height="400px"
       width="100%"
     ></Echart>

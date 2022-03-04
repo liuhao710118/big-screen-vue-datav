@@ -10,17 +10,17 @@
         </div>
       </div>
       <div>
-        <UnitCompare />
+        <compare />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import UnitCompare from '@/components/echart/unitCompare'
+import compare from '@/components/echart/compare'
 export default {
   components: {
-    UnitCompare
+    compare
   }
 }
 </script>
