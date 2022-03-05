@@ -8,7 +8,7 @@
           <div class="d-flex jc-center">
             <dv-decoration-8 class="dv-dec-8" :color="['#568aea', '#000000']" />
             <div class="title">
-              <span class="title-text">大数据可视化平台</span>
+              <span class="title-text">运动数据在线管理平台</span>
               <dv-decoration-6
                 class="dv-dec-6"
                 :reverse="true"
@@ -29,15 +29,18 @@
           <div class="d-flex aside-width">
             <div class="react-left ml-4 react-l-s">
               <span class="react-before"></span>
-              <span class="text">数据分析1</span>
+              <span class="text">西城区教体局</span>
             </div>
-            <div class="react-right ml-3">
+            <!-- <div class="react-right ml-3">
               <span class="text">数据分析2</span>
-            </div>
+            </div> -->
           </div>
           <div class="d-flex aside-width">
+            <!-- <div class="react-right bg-color-blue mr-3">
+              <span class="text fw-b">实时直播</span>
+            </div> -->
             <div class="react-right bg-color-blue mr-3">
-              <span class="text fw-b">vue-big-screen</span>
+              <span class="text fw-b">跳绳数据统计</span>
             </div>
             <div class="react-right mr-4 react-l-s">
               <span class="react-after"></span>
@@ -49,41 +52,32 @@
         </div>
 
         <div class="body-box">
-          <!-- 第三行数据 -->
-          <div class="content-box">
-            <div>
-              <dv-border-box-12>
-                <centerLeft1 />
-              </dv-border-box-12>
-            </div>
-            <div>
-              <dv-border-box-12>
-                <centerLeft2 />
-              </dv-border-box-12>
-            </div>
-            <!-- 中间 -->
-            <div>
-              <center />
-            </div>
-            <!-- 中间 -->
-            <div>
-              <centerRight2 />
-            </div>
+          <!-- 数据 -->
+          <div class="left-box">
             <div>
               <dv-border-box-13>
-                <centerRight1 />
+                <unitStats />
               </dv-border-box-13>
             </div>
           </div>
-
-          <!-- 第四行数据 -->
-          <div class="bototm-box">
+          <div class="center-box">
+            <div class="center-top-box">
+              <div>
+                <globalStats />
+              </div>
+            </div>
+            <div class="center-bottom-box">
+              <dv-border-box-12>
+                <unitCompare />
+              </dv-border-box-12>
+            </div>
+          </div>
+          <div class="right-box">
             <dv-border-box-13>
-              <bottomLeft />
+              <!-- <top3 class="react-right-top"/> -->
+              <!-- <playerRank  class="react-right-bottom"/> -->
+              <playerRank/>
             </dv-border-box-13>
-            <dv-border-box-12>
-              <bottomRight />
-            </dv-border-box-12>
           </div>
         </div>
       </div>
@@ -93,17 +87,14 @@
 
 <script>
 import drawMixin from "../utils/drawMixin";
-import { formatTime } from '../utils/index.js'
-import centerLeft1 from './centerLeft1'
-import centerLeft2 from './centerLeft2'
-import centerRight1 from './centerRight1'
-import centerRight2 from './centerRight2'
-import center from './center'
-import bottomLeft from './bottomLeft'
-import bottomRight from './bottomRight'
-
+import { formatTime } from "../utils/index.js";
+import playerRank from "./playerRank";
+import globalStats from "./globalStats";
+import unitCompare from './unitCompare'
+import unitStats from './unitStats'
+// import top3 from './top3'
 export default {
-  mixins: [ drawMixin ],
+  mixins: [drawMixin],
   data() {
     return {
       timing: null,
@@ -111,42 +102,40 @@ export default {
       dateDay: null,
       dateYear: null,
       dateWeek: null,
-      weekday: ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
-    }
+      weekday: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+    };
   },
   components: {
-    centerLeft1,
-    centerLeft2,
-    centerRight1,
-    centerRight2,
-    center,
-    bottomLeft,
-    bottomRight
+    unitStats,
+    playerRank,
+    globalStats,
+    unitCompare,
+    // top3
   },
   mounted() {
-    this.timeFn()
-    this.cancelLoading()
+    this.timeFn();
+    this.cancelLoading();
   },
-  beforeDestroy () {
-    clearInterval(this.timing)
+  beforeDestroy() {
+    clearInterval(this.timing);
   },
   methods: {
     timeFn() {
       this.timing = setInterval(() => {
-        this.dateDay = formatTime(new Date(), 'HH: mm: ss')
-        this.dateYear = formatTime(new Date(), 'yyyy-MM-dd')
-        this.dateWeek = this.weekday[new Date().getDay()]
-      }, 1000)
+        this.dateDay = formatTime(new Date(), "HH: mm: ss");
+        this.dateYear = formatTime(new Date(), "yyyy-MM-dd");
+        this.dateWeek = this.weekday[new Date().getDay()];
+      }, 1000);
     },
     cancelLoading() {
       setTimeout(() => {
-        this.loading = false
-      }, 500)
-    }
-  }
-}
+        this.loading = false;
+      }, 500);
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '../assets/scss/index.scss';
+@import "../assets/scss/home.scss";
 </style>

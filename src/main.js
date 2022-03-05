@@ -16,6 +16,8 @@ import 'vue-awesome/icons/align-left.js';
 //引入echart
 //4.x 引用方式
 import echarts from 'echarts'
+import scroll from 'vue-seamless-scroll'
+Vue.use(scroll)
 //5.x 引用方式为按需引用
 //希望使用5.x版本的话,需要在package.json中更新版本号,并切换引用方式
 //import * as echarts from 'echarts'

@@ -1,34 +1,34 @@
 <template>
-  <div id="bottomLeft">
+  <div id="unitCompare">
     <div class="bg-color-black">
       <div class="d-flex pt-2 pl-2">
         <span>
           <icon name="chart-bar" class="text-icon"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">数据统计图</span>
+          <span class="fs-xl text mx-2">团队数据对比</span>
         </div>
       </div>
       <div>
-        <BottomLeftChart />
+        <compare />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import BottomLeftChart from '@/components/echart/bottom/bottomLeftChart'
+import compare from '@/components/echart/compare'
 export default {
   components: {
-    BottomLeftChart
+    compare
   }
 }
 </script>
 
 <style lang="scss" scoped>
-$box-height: 520px;
+$box-height: 440px;
 $box-width: 100%;
-#bottomLeft {
+#unitCompare {
   padding: 20px 16px;
   height: $box-height;
   width: $box-width;
@@ -43,7 +43,7 @@ $box-width: 100%;
   .chart-box {
     margin-top: 16px;
     width: 170px;
-    height: 170px;
+    height: 150px;
     .active-ring-name {
       padding-top: 10px;
     }

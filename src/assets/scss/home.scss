@@ -33,7 +33,7 @@
     }
     .title {
       position: relative;
-      width: 500px;
+      width: 600px;
       text-align: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -121,23 +121,46 @@
         transform: skewX(-45deg);
       }
     }
-
+    // 页面主显示区域布局
     .body-box {
       margin-top: 16px;
       display: flex;
-      flex-direction: column;
-
-      //下方区域的布局
-      .content-box {
-        display: grid;
-        grid-template-columns: 2fr 3fr 5fr 3fr 2fr;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 900px;
+      //左侧布局
+      .left-box {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
       }
-
-      // 底部数据
-      .bototm-box {
-        margin-top: 10px;
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
+      // 中间布局
+      .center-box {
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+      }
+        // 中上部布局
+        .center-top-box {
+          height: 440px;
+        }
+        // 中下部布局
+        .center-bototm-box {
+          height: 460px;
+        }
+      // 右侧布局
+      .right-box {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        // top3
+        // .react-right-top {
+        //   height: 200px;
+        // }
+        // // rank
+        // .react-right-bottom {
+        //   height: 600px;
+        // }
       }
     }
   }
