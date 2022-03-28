@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '560d6891af2056af70d1ce4240d2af3edc3393bd'
-    oldFile: !uuid 'aee14d00f4ddac502fac6abe327572f92aaa738e'
-  /src/views:
-    newFile: !uuid 'dbd30397e075d16f72cff19ba72b56113872c2b3'
-    oldFile: !uuid 'f5a30e898248fc3deb47fb06a3b9dcdc790c9b0f'
-  /src/views/centerRight1.vue:
-    newFile: !uuid 'ca7a6bcce9d1cb748fb5b777a8c7f7290fdfb301'
-    oldFile: !uuid 'e711c00b62d5d20989d6ee3a3d43e5cce76b5fd1'
-gitCommitId: !uuid '90c08795dd3f506175dd03cdb9fd022b6d2ec8a6'
+    newFile: !uuid '233c4171934ceaf4fc4bff35c0abab5a644815df'
+    oldFile: !uuid '560d6891af2056af70d1ce4240d2af3edc3393bd'
+  /src/utils:
+    newFile: !uuid 'a829f632d49314f66af5e6716ef844cd3c903880'
+    oldFile: !uuid 'b25c62fe9e17f3f8aebb11d994f98a7a75d0ccfb'
+  /src/utils/resizeMixin.js:
+    newFile: !uuid '6a79380e829f269c45a9542e106558db36343f12'
+    oldFile: !uuid 'a4d25bcf5e1170ca2f92074ee6b492bf43f4b085'
+gitCommitId: !uuid 'e167c7bfb6664402a1a8998721342bc13dd8143b'
 renames: {
   }
-revisionId: 75
+revisionId: 76
