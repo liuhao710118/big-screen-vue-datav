@@ -2,19 +2,13 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '4cc840605eb08206dfedf33fe843aa9ee6ed3ffe'
-    oldFile: !uuid 'b6921fb07f62a209f917044c9af6c7c41e9c8a08'
-  /src/assets:
-    newFile: !uuid 'c3f5ab69f6f756d878fd47a867e5713a64d50c61'
-    oldFile: !uuid '4629b4b1bbdd3c87465c4982dd8479a855dd85fb'
-  /src/assets/scss:
-    newFile: !uuid '7b8ad7a8988fc02198004457c7767b01a5bbe724'
-    oldFile: !uuid '4ee10dd5ecea97c7c0a20c6c6d616ffd5a1049b4'
-  /src/assets/scss/style.scss:
-    newFile: !uuid '300e99dc15be14d3429ed5f6d2e60ecdb0526616'
-    oldFile: !uuid '17b97784277dce9566e51c89f02ba9cdb39f1477'
-gitCommitId: !uuid '2539fbabd5f7f6962cf994c9396c1caf074f1713'
+  /public:
+    newFile: !uuid '6126dbcf638e6e9b8ad21455cb390d269d181203'
+    oldFile: !uuid '0a63ab38014a23610694110822cd179f64fb1da4'
+  /public/QQ2.png:
+    newFile: !uuid '09b32fc1f56c14d68d1596fce18d0d893d69fe9d'
+    oldFile: null
+gitCommitId: !uuid 'fcda0014db04d4dbea65df04777a56425d74f413'
 renames: {
   }
-revisionId: 92
+revisionId: 93
