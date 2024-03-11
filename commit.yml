@@ -3,12 +3,12 @@ branches: {
   }
 fileChange:
   /public:
-    newFile: !uuid '6126dbcf638e6e9b8ad21455cb390d269d181203'
-    oldFile: !uuid '0a63ab38014a23610694110822cd179f64fb1da4'
-  /public/QQ2.png:
-    newFile: !uuid '09b32fc1f56c14d68d1596fce18d0d893d69fe9d'
-    oldFile: null
-gitCommitId: !uuid 'fcda0014db04d4dbea65df04777a56425d74f413'
+    newFile: !uuid '232b4c3fe356b13918cd1de89cd056dd0f5794e1'
+    oldFile: !uuid '6126dbcf638e6e9b8ad21455cb390d269d181203'
+  /public/image.png:
+    newFile: null
+    oldFile: !uuid '099507b238a18c0ec30cd39a5a2d9e0d929df5c1'
+gitCommitId: !uuid 'cf1573e6512dfc291a1805aa5335496c204c4fd7'
 renames: {
   }
-revisionId: 93
+revisionId: 94
