@@ -204,9 +204,10 @@ Vue.prototype.$http = axios.create({
 7. 将适配方案从 rem 改成 scale
 
 ## 五、反馈
-QQ群二维码：
 
-![输入图片说明](public/image.png)
+QQ群二维码：495755841
+
+<img src="readme/QQ2.png" width="200px" />
 
 ## 六、相关大屏案例
 （以下案例基于此项目二次开发）：
