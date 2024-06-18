@@ -21,7 +21,7 @@
 - 项目需要全屏展示（按 F11）。
 - 项目部分区域使用了全局注册方式，增加了打包体积，在实际运用中请使用 **按需引入**。
 - 拉取项目之后，建议按照自己的功能区域重命名文件，现以简单的位置进行区分。
-- 项目环境：Vue-cli-3.0、DataV-2.7.3、Echarts-4.6.0(如果5.x版本有问题，请切换到4.x版本)、Webpack-4.0、Npm-6.13、Node-v12.16。
+- 项目环境：Vue-cli-5.x、DataV-2.7.3、Echarts-4.6.0(如果5.x版本有问题，请切换到4.x版本)、Webpack-4.0、Npm-9.x、Node-v18。
 - 请拉取 master 分支的代码，其余分支是开发分支。
 - 需要其它地图数据的，请查看我的其它项目（有一个地图合集）
 
@@ -52,7 +52,7 @@
 
 ### 启动项目
 
-需要提前安装好 `nodejs` 与 `yarn`,下载项目后在项目主目录下运行 `yarn` 拉取依赖包。安装完依赖包之后然后使用 `vue-cli` 或者直接使用命令`npm run serve`，就可以启动项目，启动项目后需要手动全屏（按 F11）。如果编译项目的时候提示没有 DataV 框架的依赖，输入 `npm install @jiaminghi/data-view` 或者 `yarn add @jiaminghi/data-view` 进行手动安装。
+需要提前安装好 `nodejs` 与 `pnpm`,下载项目后在项目主目录下运行 `pnpm` 拉取依赖包。安装完依赖包之后然后使用 `vue-cli` 或者直接使用命令`npm run serve`，就可以启动项目，启动项目后需要手动全屏（按 F11）。如果编译项目的时候提示没有 DataV 框架的依赖，输入 `npm install @jiaminghi/data-view` 或者 `yarn add @jiaminghi/data-view` 进行手动安装。
 
 ### 封装组件渲染图表
 
